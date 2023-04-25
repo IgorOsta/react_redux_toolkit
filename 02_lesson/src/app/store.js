@@ -1,6 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postREd from "../features/posts/postsSlice";
+import posrREd from "../features/posts/postsSlice";
 
 export const store = configureStore({
-  reducer: postREd,
+  reducer: posrREd,
+  
 });
